@@ -44,6 +44,7 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.0" % "test"
 ### Compiling & Running test using Scala
 - Download the [ScalaTest](https://oss.sonatype.org/content/groups/public/org/scalatest/scalatest-app_2.13/3.1.0/scalatest-app_2.13-3.1.0.jar) jar file. This is available on [Quickstart](http://www.scalatest.org/quick_start) page  
 - Download the [scala-xml](https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar) jar file
+- Move these files to src/test/scala
 - Compile the Test class
 ```shell script
 scalac -classpath "*.jar" HelloWorldSpec.scala
